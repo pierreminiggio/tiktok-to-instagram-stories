@@ -21,10 +21,5 @@
         "pierreminiggio/instagram-story-poster": "dev-main",
         "pierreminiggio/multi-sources-tiktok-downloader": "dev-main",
         "pierreminiggio/video-render-for-tiktok-video-checker": "dev-main"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "bash post-install.sh"
-        ]
     }
 }
