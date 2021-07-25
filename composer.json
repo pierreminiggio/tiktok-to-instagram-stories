@@ -1,0 +1,30 @@
+{
+    "name": "pierreminiggio/tiktok-to-instagram-stories",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PierreMiniggio\\TiktokToInstagramStories\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "ext-curl": "*",
+        "pierreminiggio/database-fetcher": "^1.0",
+        "pierreminiggio/instagram-story-poster": "dev-main",
+        "pierreminiggio/multi-sources-tiktok-downloader": "dev-main",
+        "pierreminiggio/video-render-for-tiktok-video-checker": "dev-main"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "bash post-install.sh"
+        ]
+    }
+}
