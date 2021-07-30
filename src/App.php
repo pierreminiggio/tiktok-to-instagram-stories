@@ -98,7 +98,7 @@ class App
                     $videoUrl = $cacheUrl . '/' . $fileName;
                 }
 
-                $storyId = $storyUploader->upload(
+                $storyIds = $storyUploader->upload(
                     $uploaderProject['token'],
                     $uploaderProject['account'],
                     $uploaderProject['project'],
@@ -111,11 +111,13 @@ class App
                     ]
                 );
 
-                $videoToPostRepository->insertStoryIfNeeded(
-                    $storyId,
-                    $instagramChannelId,
-                    $videoToPostId
-                );
+                foreach ($storyIds as $storyId) {
+                    $videoToPostRepository->insertStoryIfNeeded(
+                        $storyId,
+                        $instagramChannelId,
+                        $videoToPostId
+                    );
+                }
                 
                 if (file_exists($videoFile)) {
                     unlink($videoFile);
