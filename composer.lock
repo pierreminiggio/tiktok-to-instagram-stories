@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d44721997a38c9e192e4b7f68df4d593",
+    "content-hash": "bd4c4df17275592420974ae9bca8bed1",
     "packages": [
         {
             "name": "neutronstars/database-sql",
@@ -164,23 +164,22 @@
         },
         {
             "name": "pierreminiggio/github-action-artifact-downloader",
-            "version": "dev-main",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-action-artifact-downloader.git",
-                "reference": "0a5c5e7dd73e8ea83e8a87dce4405635073dd3cb"
+                "reference": "5575b415a1df4e19729959d91b9acd10865c94a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-artifact-downloader/zipball/0a5c5e7dd73e8ea83e8a87dce4405635073dd3cb",
-                "reference": "0a5c5e7dd73e8ea83e8a87dce4405635073dd3cb",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-artifact-downloader/zipball/5575b415a1df4e19729959d91b9acd10865c94a6",
+                "reference": "5575b415a1df4e19729959d91b9acd10865c94a6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0",
-                "pierreminiggio/github-user-agent": "9999999-dev"
+                "pierreminiggio/github-user-agent": "^2.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -196,29 +195,28 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-action-artifact-downloader/issues",
-                "source": "https://github.com/pierreminiggio/php-github-action-artifact-downloader/tree/1.0.1"
+                "source": "https://github.com/pierreminiggio/php-github-action-artifact-downloader/tree/2.0.0"
             },
-            "time": "2021-05-01T12:35:03+00:00"
+            "time": "2022-05-29T20:09:10+00:00"
         },
         {
             "name": "pierreminiggio/github-action-run",
-            "version": "dev-main",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-action-run.git",
-                "reference": "6b5feefd13e261fc8695b4a9dfd2f1f6eb2966d7"
+                "reference": "b9d354a52eae522e6f778029367c71aeabe68389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run/zipball/6b5feefd13e261fc8695b4a9dfd2f1f6eb2966d7",
-                "reference": "6b5feefd13e261fc8695b4a9dfd2f1f6eb2966d7",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run/zipball/b9d354a52eae522e6f778029367c71aeabe68389",
+                "reference": "b9d354a52eae522e6f778029367c71aeabe68389",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0",
-                "pierreminiggio/github-statuses-enum": "9999999-dev"
+                "pierreminiggio/github-statuses-enum": "^2.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -234,29 +232,28 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-action-run/issues",
-                "source": "https://github.com/pierreminiggio/php-github-action-run/tree/1.0.1"
+                "source": "https://github.com/pierreminiggio/php-github-action-run/tree/2.0.0"
             },
-            "time": "2021-04-29T23:15:47+00:00"
+            "time": "2022-05-29T19:58:26+00:00"
         },
         {
             "name": "pierreminiggio/github-action-run-artifacts-lister",
-            "version": "dev-main",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-action-run-artifacts-lister.git",
-                "reference": "920f063ded843f4b469771c1770e1743d8c0fd60"
+                "reference": "f7713e5586ecd0f508dc2197ba43d930592998ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-artifacts-lister/zipball/920f063ded843f4b469771c1770e1743d8c0fd60",
-                "reference": "920f063ded843f4b469771c1770e1743d8c0fd60",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-artifacts-lister/zipball/f7713e5586ecd0f508dc2197ba43d930592998ab",
+                "reference": "f7713e5586ecd0f508dc2197ba43d930592998ab",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0",
-                "pierreminiggio/github-user-agent": "9999999-dev"
+                "pierreminiggio/github-user-agent": "^2.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -272,29 +269,28 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-action-run-artifacts-lister/issues",
-                "source": "https://github.com/pierreminiggio/php-github-action-run-artifacts-lister/tree/1.1.0"
+                "source": "https://github.com/pierreminiggio/php-github-action-run-artifacts-lister/tree/2.0.0"
             },
-            "time": "2021-08-15T22:31:58+00:00"
+            "time": "2022-05-29T20:03:13+00:00"
         },
         {
             "name": "pierreminiggio/github-action-run-creator",
-            "version": "dev-main",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-action-run-creator.git",
-                "reference": "fe585feb3b19fa731ec93e7bb24cdb6f389849d3"
+                "reference": "2b91698ea13225c5cc8cc6d037992f09e216c3f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-creator/zipball/fe585feb3b19fa731ec93e7bb24cdb6f389849d3",
-                "reference": "fe585feb3b19fa731ec93e7bb24cdb6f389849d3",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-creator/zipball/2b91698ea13225c5cc8cc6d037992f09e216c3f3",
+                "reference": "2b91698ea13225c5cc8cc6d037992f09e216c3f3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0",
-                "pierreminiggio/github-user-agent": "9999999-dev"
+                "pierreminiggio/github-user-agent": "^2.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -310,30 +306,29 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-action-run-creator/issues",
-                "source": "https://github.com/pierreminiggio/php-github-action-run-creator/tree/1.1.0"
+                "source": "https://github.com/pierreminiggio/php-github-action-run-creator/tree/2.0.0"
             },
-            "time": "2021-08-02T22:57:54+00:00"
+            "time": "2022-05-29T20:05:52+00:00"
         },
         {
             "name": "pierreminiggio/github-action-run-detailer",
-            "version": "dev-main",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-action-run-detailer.git",
-                "reference": "7eff1cc804785980ee19d558eae72bd2330a55e5"
+                "reference": "6db8c8e7a0728c91682ef5bc583602cf5e3737e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-detailer/zipball/7eff1cc804785980ee19d558eae72bd2330a55e5",
-                "reference": "7eff1cc804785980ee19d558eae72bd2330a55e5",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-detailer/zipball/6db8c8e7a0728c91682ef5bc583602cf5e3737e6",
+                "reference": "6db8c8e7a0728c91682ef5bc583602cf5e3737e6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0",
-                "pierreminiggio/github-action-run": "9999999-dev",
-                "pierreminiggio/github-user-agent": "9999999-dev"
+                "pierreminiggio/github-action-run": "^2.0",
+                "pierreminiggio/github-user-agent": "^2.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -349,36 +344,35 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-action-run-detailer/issues",
-                "source": "https://github.com/pierreminiggio/php-github-action-run-detailer/tree/1.1.0"
+                "source": "https://github.com/pierreminiggio/php-github-action-run-detailer/tree/2.0.0"
             },
-            "time": "2021-08-15T22:30:07+00:00"
+            "time": "2022-05-29T20:11:30+00:00"
         },
         {
             "name": "pierreminiggio/github-action-run-starter-and-artifact-downloader",
-            "version": "dev-main",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-action-run-starter-and-artifact-downloader.git",
-                "reference": "11d844cea17cbaadb2f4d295e75daab593f0c560"
+                "reference": "86e044d76339457f3fce57a1c223aa5ef42103e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-starter-and-artifact-downloader/zipball/11d844cea17cbaadb2f4d295e75daab593f0c560",
-                "reference": "11d844cea17cbaadb2f4d295e75daab593f0c560",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-run-starter-and-artifact-downloader/zipball/86e044d76339457f3fce57a1c223aa5ef42103e2",
+                "reference": "86e044d76339457f3fce57a1c223aa5ef42103e2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0",
-                "pierreminiggio/github-action-artifact-downloader": "9999999-dev",
-                "pierreminiggio/github-action-run-artifacts-lister": "9999999-dev",
-                "pierreminiggio/github-action-run-creator": "9999999-dev",
-                "pierreminiggio/github-action-run-detailer": "9999999-dev",
-                "pierreminiggio/github-action-runs-lister": "9999999-dev"
+                "pierreminiggio/github-action-artifact-downloader": "^2.0",
+                "pierreminiggio/github-action-run-artifacts-lister": "^2.0",
+                "pierreminiggio/github-action-run-creator": "^2.0",
+                "pierreminiggio/github-action-run-detailer": "^2.0",
+                "pierreminiggio/github-action-runs-lister": "^4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "10.0.x-dev"
+                "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -395,30 +389,29 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-action-run-starter-and-artifact-downloader/issues",
-                "source": "https://github.com/pierreminiggio/php-github-action-run-starter-and-artifact-downloader/tree/1.2.0"
+                "source": "https://github.com/pierreminiggio/php-github-action-run-starter-and-artifact-downloader/tree/2.0.0"
             },
-            "time": "2021-08-15T22:41:51+00:00"
+            "time": "2022-05-29T20:18:24+00:00"
         },
         {
             "name": "pierreminiggio/github-action-runs-lister",
-            "version": "dev-main",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-action-runs-lister.git",
-                "reference": "881e6528ced8a9f91631df9621f3e906f0ff976e"
+                "reference": "043cb5ed8c6934d8a9d12a9b53b90e665639c0de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-runs-lister/zipball/881e6528ced8a9f91631df9621f3e906f0ff976e",
-                "reference": "881e6528ced8a9f91631df9621f3e906f0ff976e",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-action-runs-lister/zipball/043cb5ed8c6934d8a9d12a9b53b90e665639c0de",
+                "reference": "043cb5ed8c6934d8a9d12a9b53b90e665639c0de",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0",
-                "pierreminiggio/github-action-run": "9999999-dev",
-                "pierreminiggio/github-user-agent": "9999999-dev"
+                "pierreminiggio/github-action-run": "^2.0",
+                "pierreminiggio/github-user-agent": "^2.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -434,28 +427,27 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-action-runs-lister/issues",
-                "source": "https://github.com/pierreminiggio/php-github-action-runs-lister/tree/3.1.0"
+                "source": "https://github.com/pierreminiggio/php-github-action-runs-lister/tree/4.0.0"
             },
-            "time": "2021-08-15T22:25:42+00:00"
+            "time": "2022-05-29T20:01:33+00:00"
         },
         {
             "name": "pierreminiggio/github-statuses-enum",
-            "version": "dev-main",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-statuses-enum.git",
-                "reference": "1f26a833b305cbd3423175dc72adca1429ad0d42"
+                "reference": "94dd07911d379698f1ca655044ee6b0de2dbd748"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-statuses-enum/zipball/1f26a833b305cbd3423175dc72adca1429ad0d42",
-                "reference": "1f26a833b305cbd3423175dc72adca1429ad0d42",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-statuses-enum/zipball/94dd07911d379698f1ca655044ee6b0de2dbd748",
+                "reference": "94dd07911d379698f1ca655044ee6b0de2dbd748",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -471,28 +463,27 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-statuses-enum/issues",
-                "source": "https://github.com/pierreminiggio/php-github-statuses-enum/tree/1.0.0"
+                "source": "https://github.com/pierreminiggio/php-github-statuses-enum/tree/2.0.0"
             },
-            "time": "2021-04-28T17:16:21+00:00"
+            "time": "2022-05-29T19:56:55+00:00"
         },
         {
             "name": "pierreminiggio/github-user-agent",
-            "version": "dev-main",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-user-agent.git",
-                "reference": "b0ad2ec98d8c9e3962fa875da79f3ede88ea8cab"
+                "reference": "29dafa6b033084180ff7ba7471698335e37c0cba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-user-agent/zipball/b0ad2ec98d8c9e3962fa875da79f3ede88ea8cab",
-                "reference": "b0ad2ec98d8c9e3962fa875da79f3ede88ea8cab",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-user-agent/zipball/29dafa6b033084180ff7ba7471698335e37c0cba",
+                "reference": "29dafa6b033084180ff7ba7471698335e37c0cba",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -508,32 +499,31 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-user-agent/issues",
-                "source": "https://github.com/pierreminiggio/php-github-user-agent/tree/1.0.0"
+                "source": "https://github.com/pierreminiggio/php-github-user-agent/tree/2.0.0"
             },
-            "time": "2021-04-28T19:47:42+00:00"
+            "time": "2022-05-29T19:54:25+00:00"
         },
         {
             "name": "pierreminiggio/instagram-story-poster",
-            "version": "dev-main",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-instagram-story-poster.git",
-                "reference": "e5dc64d1ea635a42d77ca3d436857f4d786702be"
+                "reference": "075c05eadfb4727d7d1d9b07ec7d7cbf2d2b5e63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-instagram-story-poster/zipball/e5dc64d1ea635a42d77ca3d436857f4d786702be",
-                "reference": "e5dc64d1ea635a42d77ca3d436857f4d786702be",
+                "url": "https://api.github.com/repos/pierreminiggio/php-instagram-story-poster/zipball/075c05eadfb4727d7d1d9b07ec7d7cbf2d2b5e63",
+                "reference": "075c05eadfb4727d7d1d9b07ec7d7cbf2d2b5e63",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.0.0",
-                "pierreminiggio/github-action-run-starter-and-artifact-downloader": "dev-main"
+                "pierreminiggio/github-action-run-starter-and-artifact-downloader": "^2.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "10.0.x-dev"
+                "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -550,31 +540,31 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-instagram-story-poster/issues",
-                "source": "https://github.com/pierreminiggio/php-instagram-story-poster/tree/2.0.0"
+                "source": "https://github.com/pierreminiggio/php-instagram-story-poster/tree/3.0.0"
             },
-            "time": "2021-07-30T23:30:30+00:00"
+            "time": "2022-08-15T08:36:31+00:00"
         },
         {
             "name": "pierreminiggio/multi-sources-tiktok-downloader",
-            "version": "dev-main",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/multi-sources-tiktok-downloader.git",
-                "reference": "932a899332efbad01f569a17fefd02e4271d97e4"
+                "reference": "0b6a5fc88efbd23632c18afe1686b6020e61be54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/multi-sources-tiktok-downloader/zipball/932a899332efbad01f569a17fefd02e4271d97e4",
-                "reference": "932a899332efbad01f569a17fefd02e4271d97e4",
+                "url": "https://api.github.com/repos/pierreminiggio/multi-sources-tiktok-downloader/zipball/0b6a5fc88efbd23632c18afe1686b6020e61be54",
+                "reference": "0b6a5fc88efbd23632c18afe1686b6020e61be54",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "php": "^8.0",
                 "pierreminiggio/are-files-the-same": "^1.0",
+                "pierreminiggio/github-action-run-starter-and-artifact-downloader": "^2.0",
                 "pierreminiggio/tiktok-downloader": "^1.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -591,9 +581,9 @@
             "description": "TikTok Downloader",
             "support": {
                 "issues": "https://github.com/pierreminiggio/multi-sources-tiktok-downloader/issues",
-                "source": "https://github.com/pierreminiggio/multi-sources-tiktok-downloader/tree/1.1.1"
+                "source": "https://github.com/pierreminiggio/multi-sources-tiktok-downloader/tree/1.2.1"
             },
-            "time": "2021-12-14T13:54:48+00:00"
+            "time": "2022-06-06T06:38:35+00:00"
         },
         {
             "name": "pierreminiggio/shell-tiktok-downloader",
@@ -669,23 +659,22 @@
         },
         {
             "name": "pierreminiggio/video-render-for-tiktok-video-checker",
-            "version": "dev-main",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/video-render-for-tiktok-video-checker.git",
-                "reference": "cf530ccd7776727334da1ed21352fa8437b751f9"
+                "reference": "548677af48df362b1ea9524cfe8ad914983bc696"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/video-render-for-tiktok-video-checker/zipball/cf530ccd7776727334da1ed21352fa8437b751f9",
-                "reference": "cf530ccd7776727334da1ed21352fa8437b751f9",
+                "url": "https://api.github.com/repos/pierreminiggio/video-render-for-tiktok-video-checker/zipball/548677af48df362b1ea9524cfe8ad914983bc696",
+                "reference": "548677af48df362b1ea9524cfe8ad914983bc696",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "php": ">=8.0.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -701,19 +690,15 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/video-render-for-tiktok-video-checker/issues",
-                "source": "https://github.com/pierreminiggio/video-render-for-tiktok-video-checker/tree/1.0.1"
+                "source": "https://github.com/pierreminiggio/video-render-for-tiktok-video-checker/tree/2.0.0"
             },
-            "time": "2021-07-25T08:52:39+00:00"
+            "time": "2022-06-06T21:16:29+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "pierreminiggio/instagram-story-poster": 20,
-        "pierreminiggio/multi-sources-tiktok-downloader": 20,
-        "pierreminiggio/video-render-for-tiktok-video-checker": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
