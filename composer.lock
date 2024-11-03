@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd4c4df17275592420974ae9bca8bed1",
+    "content-hash": "44fe78a427ef678ad0d4422ef0444cf8",
     "packages": [
         {
             "name": "neutronstars/database-sql",
@@ -546,16 +546,16 @@
         },
         {
             "name": "pierreminiggio/multi-sources-tiktok-downloader",
-            "version": "1.2.1",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/multi-sources-tiktok-downloader.git",
-                "reference": "0b6a5fc88efbd23632c18afe1686b6020e61be54"
+                "reference": "d30cb423c01785684f096e2ca168df3937c7492f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/multi-sources-tiktok-downloader/zipball/0b6a5fc88efbd23632c18afe1686b6020e61be54",
-                "reference": "0b6a5fc88efbd23632c18afe1686b6020e61be54",
+                "url": "https://api.github.com/repos/pierreminiggio/multi-sources-tiktok-downloader/zipball/d30cb423c01785684f096e2ca168df3937c7492f",
+                "reference": "d30cb423c01785684f096e2ca168df3937c7492f",
                 "shasum": ""
             },
             "require": {
@@ -581,9 +581,9 @@
             "description": "TikTok Downloader",
             "support": {
                 "issues": "https://github.com/pierreminiggio/multi-sources-tiktok-downloader/issues",
-                "source": "https://github.com/pierreminiggio/multi-sources-tiktok-downloader/tree/1.2.1"
+                "source": "https://github.com/pierreminiggio/multi-sources-tiktok-downloader/tree/1.4.0"
             },
-            "time": "2022-06-06T06:38:35+00:00"
+            "time": "2024-11-02T17:27:56+00:00"
         },
         {
             "name": "pierreminiggio/shell-tiktok-downloader",

@@ -6,6 +6,7 @@ use Exception;
 use PierreMiniggio\DatabaseFetcher\DatabaseFetcher;
 use PierreMiniggio\InstagramStoryPoster\InstagramStoryPoster;
 use PierreMiniggio\MultiSourcesTiktokDownloader\MultiSourcesTiktokDownloader;
+use PierreMiniggio\MultiSourcesTiktokDownloader\Repository;
 use PierreMiniggio\TiktokToInstagramStories\Connection\DatabaseConnectionFactory;
 use PierreMiniggio\TiktokToInstagramStories\Repository\LinkedChannelRepository;
 use PierreMiniggio\TiktokToInstagramStories\Repository\NonUploadedVideoRepository;
@@ -34,7 +35,10 @@ class App
         }
         
         $cacheUrl = $config['cache_url'];
-        $downloader = MultiSourcesTiktokDownloader::buildSelf();
+        $snapTikApiActionConfig = $config['snap_tik_api_action'] ?? null;
+        $downloader = MultiSourcesTiktokDownloader::buildSelf(
+            $snapTikApiActionConfig ? new Repository(...$snapTikApiActionConfig) : null
+        );
         
         $spinnerApiConfig = $config['spinner_api'];
         $spinnerApiUrl = $spinnerApiConfig !== null ? $spinnerApiConfig['url'] : null;

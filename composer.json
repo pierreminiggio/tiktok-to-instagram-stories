@@ -18,7 +18,7 @@
         "ext-curl": "*",
         "pierreminiggio/database-fetcher": "^1.0",
         "pierreminiggio/instagram-story-poster": "^3.0",
-        "pierreminiggio/multi-sources-tiktok-downloader": "^1.2",
+        "pierreminiggio/multi-sources-tiktok-downloader": "^1.4",
         "pierreminiggio/video-render-for-tiktok-video-checker": "^2.0"
     }
 }
